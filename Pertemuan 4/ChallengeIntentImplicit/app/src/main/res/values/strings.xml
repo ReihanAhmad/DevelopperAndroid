@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Challange Intent Implicit</string>
+    <string name="add_item">Add Item</string>
+    <string name="choose">Choose Item</string>
+    <string name="item_list">Shopping Item</string>
+    <string name="edittext_loc">Golden Gate Bridge</string>
+    <string name="button_loc">Open Location</string>
+</resources>

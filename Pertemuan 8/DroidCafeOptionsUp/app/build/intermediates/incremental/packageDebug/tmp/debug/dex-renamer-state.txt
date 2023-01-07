@@ -1,0 +1,4 @@
+#Mon Nov 21 11:51:47 SGT 2022
+base.0=D\:\\Kuliah\\Semester 5\\Pa Roman\\Project\\TProject\\DroidCafeOptionsUp\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

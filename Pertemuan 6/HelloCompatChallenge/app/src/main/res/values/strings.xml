@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">HelloCompatChallenge Reihan</string>
+
+    <string name="change_color">change color</string>
+    <string name="hello_world">Hello World!</string>
+</resources>

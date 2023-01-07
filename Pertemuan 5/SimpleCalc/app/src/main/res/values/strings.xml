@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SimpleCalc</string>
+    <string name="masukkan_nilai">Masukkan Nilai</string>
+    <string name="masukkan_nilai2">Masukkan Nilai</string>
+    <string name="add">add</string>
+    <string name="sub">sub</string>
+    <string name="div">div</string>
+    <string name="mul">mul</string>
+    <string name="computationError">Error</string>
+</resources>

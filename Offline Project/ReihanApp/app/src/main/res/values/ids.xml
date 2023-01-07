@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="action_open_input_control" type="id" />
+    <item name="action_open_activity_listview" type="id" />
+    <item name="action_open_activity_reycylerview" type="id" />
+</resources>

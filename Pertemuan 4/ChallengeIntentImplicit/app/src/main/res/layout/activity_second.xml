@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/tv_chooseItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/choose"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/item1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Baju"
+        android:onClick="addItemToFirstAct"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_chooseItem"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/item2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Celana"
+        android:onClick="addItemToFirstAct"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item1"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/item3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Topi"
+        android:onClick="addItemToFirstAct"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item2"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/item4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Cincin"
+        android:onClick="addItemToFirstAct"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item3"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/item5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Kalung"
+        android:onClick="addItemToFirstAct"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item4"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/item6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Beny Head"
+        android:onClick="addItemToFirstAct"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item5"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/item7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Slayer"
+        android:onClick="addItemToFirstAct"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item6"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/item8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Hodie"
+        android:onClick="addItemToFirstAct"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item7"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/item9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:onClick="addItemToFirstAct"
+        android:text="Rugby Shirt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item8"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/item10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:onClick="addItemToFirstAct"
+        android:text="Kacamata"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item8"
+        tools:ignore="UsingOnClickInXml" />
+</androidx.constraintlayout.widget.ConstraintLayout>
